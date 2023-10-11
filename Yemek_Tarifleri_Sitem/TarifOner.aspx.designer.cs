@@ -60,13 +60,13 @@ namespace Yemek_Tarifleri_Sitem
         protected global::System.Web.UI.WebControls.TextBox TxtTarifOneren;
 
         /// <summary>
-        /// TxtMailAdresi control.
+        /// TxtMail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtMailAdresi;
+        protected global::System.Web.UI.WebControls.TextBox TxtMail;
 
         /// <summary>
         /// BtnTarifOner control.
