@@ -71,6 +71,7 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="resimler\mücver.png" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

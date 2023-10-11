@@ -43,13 +43,17 @@
                 <strong>KATEGORİLER<br />
                 <br />
                 </strong>
-                <asp:DataList ID="DataList1" runat="server">
+                <asp:DataList ID="DataList1" runat="server" Width="200px">
                     <ItemTemplate>
-                        <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>' BorderColor="White" BorderStyle="Solid" BorderWidth="2px"></asp:Label>
+                        <div style="border: thin solid #C0C0C0">
+                            <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                            &nbsp;(
+                            <asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
+                            )</div>
                     </ItemTemplate>
                 </asp:DataList>
             </div>
-            <div style=" width: 450px; float:left; height: 300px; background-color:#ce7171; margin-left:50px;">
+            <div style=" width: 450px; float:left; height: auto; background-color:#ce7171; margin-left:50px;">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
