@@ -5,12 +5,14 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
             width: 100%;
-            background-color: #FFFFFF;
+            background-color: #eea4a4;
+            height: 36px;
         }
 
         .auto-style2 {
@@ -19,6 +21,22 @@
         .auto-style3 {
             font-size: large;
         }
+        .auto-style4 {
+            text-align: center;
+            width: 130px;
+        }
+        .auto-style5 {
+            text-align: center;
+            width: 172px;
+        }
+        .auto-style6 {
+            text-align: center;
+            width: 128px;
+        }
+        .auto-style7 {
+            text-align: center;
+            width: 137px;
+        }
     </style>
 </head>
 <body>
@@ -26,13 +44,13 @@
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171;">
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp;</div>
-        <div style="margin-left: 300px; width: 700px; height: 25px; background-color: #ce7171;">
+        <div style="margin-left: 300px; width: 700px; height: 40px; background-color: #fff;">
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2"><strong><a href="AnaSayfa.aspx">ANA SAYFA</a></strong></td>
-                    <td class="auto-style2"><strong><a href="GununYemegi.aspx">GÜNÜN YEMEĞİ</a></strong></td>
-                    <td class="auto-style2"><strong><a href="TarifOner.aspx">TARİF ÖNER</a></strong></td>
-                    <td class="auto-style2"><strong><a href="Hakkimizda.aspx">HAKKIMIZDA</a></strong></td>
+                    <td class="auto-style4"><strong><a href="AnaSayfa.aspx">ANA SAYFA</a></strong></td>
+                    <td class="auto-style5"><strong><a href="GununYemegi.aspx">GÜNÜN YEMEĞİ</a></strong></td>
+                    <td class="auto-style6"><strong><a href="TarifOner.aspx">TARİF ÖNER</a></strong></td>
+                    <td class="auto-style7"><strong><a href="Hakkimizda.aspx">HAKKIMIZDA</a></strong></td>
                     <td class="auto-style2"><strong><a href="iletisim.aspx">İLETİŞİM</a></strong></td>
                 </tr>
             </table>
