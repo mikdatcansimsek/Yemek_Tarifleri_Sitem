@@ -32,37 +32,37 @@
         <tr>
             <td class="auto-style9">Tarif Ad:</td>
             <td>
-                <asp:TextBox ID="TxtTarifAd" runat="server" Width="345px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifAd" runat="server" Width="345px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Malzemeler:</td>
             <td>
-                <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="346px"></asp:TextBox>
+                <asp:TextBox ID="TxtMalzemeler" runat="server" Height="80px" TextMode="MultiLine" Width="346px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Yapılış:</td>
             <td>
-                <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="347px"></asp:TextBox>
+                <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="347px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Resim:</td>
             <td>
-                <asp:FileUpload ID="FileUpload1" runat="server" Width="351px" />
+                <asp:FileUpload ID="FileUpload1" runat="server" Width="351px" CssClass="tb5" />
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Tarif Öneren:</td>
             <td>
-                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="344px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="344px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style9">Mail Adresi:</td>
             <td>
-                <asp:TextBox ID="TxtMail" runat="server" TextMode="Email" Width="341px"></asp:TextBox>
+                <asp:TextBox ID="TxtMail" runat="server" TextMode="Email" Width="341px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
