@@ -68,16 +68,27 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Banner Foto\head1.jpeg" />
+    <Content Include="Banner Foto\head2.jpeg" />
+    <Content Include="Banner Foto\head3.jpeg" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="KategoriDetay.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="resimler\mücver.png" />
+    <Content Include="resimler\table.jpg" />
     <Content Include="TarifOner.aspx" />
-    <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="AnaSayfa.aspx.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +117,13 @@
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
     </Compile>
+    <Compile Include="KategoriDetay.aspx.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.designer.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
@@ -113,6 +131,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
     </Compile>
     <Compile Include="sqlsinif.cs" />
     <Compile Include="TarifOner.aspx.cs">
@@ -131,14 +156,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.Master" />
     <None Include="packages.config" />
     <Content Include="Kullanici.Master" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    <Content Include="Site2.Master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

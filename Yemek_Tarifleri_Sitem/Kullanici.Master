@@ -42,6 +42,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171;">
+            <asp:Image ID="Image1" runat="server" Height="149px" ImageUrl="~/Banner Foto/head3.jpeg" Width="702px" />
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp;</div>
         <div style="margin-left: 300px; width: 700px; height: 40px; background-color: #fff;">
@@ -64,7 +65,7 @@
                 <asp:DataList ID="DataList1" runat="server" Width="200px">
                     <ItemTemplate>
                         <div style="border: thin solid #C0C0C0">
-                            <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                            <a href="KategoriDetay.aspx?Kategoriid=<%#Eval("Kategoriid")%>"> <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label></a>
                             &nbsp;(
                             <asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
                             )</div>

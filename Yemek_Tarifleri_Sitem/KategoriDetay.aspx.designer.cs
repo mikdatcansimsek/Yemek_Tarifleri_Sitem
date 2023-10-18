@@ -11,7 +11,7 @@ namespace Yemek_Tarifleri_Sitem
 {
 
 
-    public partial class Hakkimizda
+    public partial class KategoriDetay
     {
 
         /// <summary>
@@ -22,14 +22,5 @@ namespace Yemek_Tarifleri_Sitem
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataList DataList2;
-
-        /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
     }
 }
