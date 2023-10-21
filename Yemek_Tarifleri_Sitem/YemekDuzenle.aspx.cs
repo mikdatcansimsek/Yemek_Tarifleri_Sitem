@@ -18,6 +18,7 @@ namespace Yemek_Tarifleri_Sitem
 
             if (Page.IsPostBack == false)
             {
+
                 //Kategori Listesi
                 SqlCommand komut2 = new SqlCommand("Select * from tbl_Kategoriler", bgl.Baglanti());
                 SqlDataReader dr2 = komut2.ExecuteReader();
