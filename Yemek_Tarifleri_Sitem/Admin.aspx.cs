@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Yemek_Tarifleri_Sitem
 {
-    public partial class Site2 : System.Web.UI.MasterPage
+    public partial class Admina : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
